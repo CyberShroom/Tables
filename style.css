@@ -1,0 +1,19 @@
+caption {
+    font-weight: bold;
+}
+
+td {
+    font-weight: bold;
+}
+
+table tr:last-child{
+    td:nth-child(1) {
+        background-color: pink;
+    }
+    td:nth-child(2) {
+        background-color: lightgreen;
+    }
+    td:nth-child(3) {
+        background-color: lightblue;
+    }
+}
